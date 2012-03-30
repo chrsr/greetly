@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+	<title>greetly ...</title>
+	<meta name="description" content="gravatar images in your email" />
+	<link rel="shortcut icon" type="image/icon" href="/favicon.ico" />
+	<link rel="stylesheet" type="text/css" href="reset.css" media="screen" />
+	<link rel="stylesheet" type="text/css" href="styles.css" media="screen" />
+</head>
+<body>
+	
+	<h1><img src="http://www.gravatar.com/avatar/a96abc95b0a77fbddfa4b604173582fb"> greetly</h1>
+	
+	<section class="intro">
+		<p>
+			Greet your email recipient with a photo of themselves.
+		</p>
+	</section>
+	
+	<section id="demo">
+		<h2>Demo</h2>		
+		<form method="get" action="/greetly/demo.php">		
+			Enter your email address to view a demo:
+			<input type="text" name="e" class="text">
+			<input type="submit" value="demo">
+		</form>	
+	</section>
+	
+	<section id="code">
+		<h2>Code examples</h2>
+		<p>Grab the code to use with your favourite mail sender...</p>			
+		
+		<h3>Campaign monitor</h3>
+		<code>
+			&lt;img style="display:block;" src="http://chrsr.com/greetly/?e=[email]" width="" height="" alt="" >
+		</code>
+				
+		<h3>Mail Chimp</h3>
+		<code>
+			&lt;img style="display:block;" src="http://chrsr.com/greetly/?e=*|EMAIL_UID|*" width="" height="" alt="" >
+		</code>		
+	</section>
+
+	<section>
+		<p>If anyone likes this idea and uses this in the real world, forward me your example: chris[at]chrsr.com - thanks!
+	</section>
+	
+</body> 
+</html>
